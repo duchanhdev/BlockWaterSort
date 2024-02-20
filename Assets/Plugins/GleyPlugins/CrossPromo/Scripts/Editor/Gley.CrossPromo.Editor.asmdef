@@ -1,0 +1,19 @@
+{
+    "name": "Gley.CrossPromo.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2f5b55d2d22865a499b61e2ab624cb23",
+        "GUID:33d42bc2929976a47bafa8174289df63"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

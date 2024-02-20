@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: c3701a538cfcaf841b12ea2dc520f3e3
+labels:
+- Cell
+- Cells
+- Data
+- Inventory
+- List
+- Recycle
+- Reuse
+- Scroll
+- ScrollRect
+- ScrollView
+- Scroller
+- UI
+- Virtualize
+- data
+- infinite
+- loop
+- scroll
+- scroller
+- virtualize
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

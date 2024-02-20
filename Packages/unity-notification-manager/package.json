@@ -1,0 +1,16 @@
+{
+  "name": "com.egitech.unity-notification-manager",
+  "version": "1.0.3",
+  "displayName": "Egitech Unity Notification Manager",
+  "description": "Unity Notification Manager",
+  "unity": "2021.3",
+  "unityRelease": "20f1",
+  "keywords": [
+    "notification",
+    "helper"
+  ],
+  "author": {
+    "name": "Enpiech",
+    "email": "enpiech@gmail.com"
+  }
+}

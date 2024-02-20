@@ -1,0 +1,323 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4933902347897166473
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4933902347897166479}
+  - component: {fileID: 4933902347897166472}
+  m_Layer: 0
+  m_Name: '@AdsManager'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &4933902347897166479
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4933902347897166473}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.8164885, y: -1.6075428, z: -11.326694}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4933902347897166472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4933902347897166473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529abb55f4c7a3543a4dc63cb6560966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_gamesettings: {fileID: 11400000, guid: c1fa8c4cc336de942bd7922c2a8e749d, type: 2}
+  _loadBannerOnShow: 1
+  _reloadRewardDelayInSeconds: 60
+  _onShowInterstitialRequested: {fileID: 11400000, guid: 4ad11668d23f4114b908f459875c48ab, type: 2}
+  _onLoadInterstitialRequested: {fileID: 11400000, guid: 554add7f16783634c9c8f3c3eeca73ff, type: 2}
+  _onUserRewardEarnedEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 9dec1904e2821c04c853c181082f890b, type: 2}
+        m_TargetAssemblyTypeName: UnityAtoms.BaseAtoms.VoidEvent, UnityAtoms.UnityAtomsBaseAtoms.Runtime
+        m_MethodName: Raise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _onShowRewardedAdRequested: {fileID: 11400000, guid: d5e2af29ca0c4344e951f1ce7a12346f, type: 2}
+  _rewardedAdReloadFailed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 0cd7e84d84aa66044a25b6c67f6db74e, type: 2}
+        m_TargetAssemblyTypeName: FirebaseHelper.Runtime.Event.Ad.AnalyticAdsEvents,
+          Egitech.FirebaseHelper
+        m_MethodName: AdLoadRetry
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _interstitialAdReloadFailed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: c5c5b53e53af47442b94f47231fb06fb, type: 2}
+        m_TargetAssemblyTypeName: FirebaseHelper.Runtime.Event.Ad.AnalyticAdsEvents,
+          Egitech.FirebaseHelper
+        m_MethodName: AdLoadRetry
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _appOpenAdReloadFailed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: a718c63970786f74ea3481d9d9fd32e1, type: 2}
+        m_TargetAssemblyTypeName: FirebaseHelper.Runtime.Event.Ad.AnalyticAdsEvents,
+          Egitech.FirebaseHelper
+        m_MethodName: AdLoadRetry
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _rewardedAdEventWrapper:
+    <OnAdLoadSuccess>k__BackingField:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 0cd7e84d84aa66044a25b6c67f6db74e, type: 2}
+          m_TargetAssemblyTypeName: FirebaseHelper.Runtime.Event.Ad.AnalyticAdsEvents,
+            Egitech.FirebaseHelper
+          m_MethodName: AdLoadSuccess
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 11400000, guid: 11214fbccd5e6d945bbf7687337fefd8, type: 2}
+          m_TargetAssemblyTypeName: UnityAtoms.BaseAtoms.VoidEvent, UnityAtoms.UnityAtomsBaseAtoms.Runtime
+          m_MethodName: Raise
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    <OnAdLoadFailed>k__BackingField:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 0cd7e84d84aa66044a25b6c67f6db74e, type: 2}
+          m_TargetAssemblyTypeName: FirebaseHelper.Runtime.Event.Ad.AnalyticAdsEvents,
+            Egitech.FirebaseHelper
+          m_MethodName: AdLoadFailed
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    <OnAdShowSuccess>k__BackingField:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 0cd7e84d84aa66044a25b6c67f6db74e, type: 2}
+          m_TargetAssemblyTypeName: FirebaseHelper.Runtime.Event.Ad.AnalyticAdsEvents,
+            Egitech.FirebaseHelper
+          m_MethodName: AdShowSuccess
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    <OnAdShowFailed>k__BackingField:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 0cd7e84d84aa66044a25b6c67f6db74e, type: 2}
+          m_TargetAssemblyTypeName: FirebaseHelper.Runtime.Event.Ad.AnalyticAdsEvents,
+            Egitech.FirebaseHelper
+          m_MethodName: AdShowFailed
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  _interstitialAdEventWrapper:
+    <OnAdLoadSuccess>k__BackingField:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: c5c5b53e53af47442b94f47231fb06fb, type: 2}
+          m_TargetAssemblyTypeName: FirebaseHelper.Runtime.Event.Ad.AnalyticAdsEvents,
+            Egitech.FirebaseHelper
+          m_MethodName: AdLoadSuccess
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    <OnAdLoadFailed>k__BackingField:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: c5c5b53e53af47442b94f47231fb06fb, type: 2}
+          m_TargetAssemblyTypeName: FirebaseHelper.Runtime.Event.Ad.AnalyticAdsEvents,
+            Egitech.FirebaseHelper
+          m_MethodName: AdLoadFailed
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    <OnAdShowSuccess>k__BackingField:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: c5c5b53e53af47442b94f47231fb06fb, type: 2}
+          m_TargetAssemblyTypeName: FirebaseHelper.Runtime.Event.Ad.AnalyticAdsEvents,
+            Egitech.FirebaseHelper
+          m_MethodName: AdShowSuccess
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    <OnAdShowFailed>k__BackingField:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: c5c5b53e53af47442b94f47231fb06fb, type: 2}
+          m_TargetAssemblyTypeName: FirebaseHelper.Runtime.Event.Ad.AnalyticAdsEvents,
+            Egitech.FirebaseHelper
+          m_MethodName: AdShowFailed
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  _appOpenAdEventWrapper:
+    <OnAdLoadSuccess>k__BackingField:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: a718c63970786f74ea3481d9d9fd32e1, type: 2}
+          m_TargetAssemblyTypeName: FirebaseHelper.Runtime.Event.Ad.AnalyticAdsEvents,
+            Egitech.FirebaseHelper
+          m_MethodName: AdLoadSuccess
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    <OnAdLoadFailed>k__BackingField:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: a718c63970786f74ea3481d9d9fd32e1, type: 2}
+          m_TargetAssemblyTypeName: FirebaseHelper.Runtime.Event.Ad.AnalyticAdsEvents,
+            Egitech.FirebaseHelper
+          m_MethodName: AdLoadFailed
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    <OnAdShowSuccess>k__BackingField:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: a718c63970786f74ea3481d9d9fd32e1, type: 2}
+          m_TargetAssemblyTypeName: FirebaseHelper.Runtime.Event.Ad.AnalyticAdsEvents,
+            Egitech.FirebaseHelper
+          m_MethodName: AdShowSuccess
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    <OnAdShowFailed>k__BackingField:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: a718c63970786f74ea3481d9d9fd32e1, type: 2}
+          m_TargetAssemblyTypeName: FirebaseHelper.Runtime.Event.Ad.AnalyticAdsEvents,
+            Egitech.FirebaseHelper
+          m_MethodName: AdShowFailed
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  _maxFailedTimes: 2

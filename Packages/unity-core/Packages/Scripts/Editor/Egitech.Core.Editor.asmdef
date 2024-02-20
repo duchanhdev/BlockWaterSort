@@ -1,0 +1,22 @@
+{
+  "name": "Egitech.Core.Editor",
+  "rootNamespace": "Egitech.Core",
+  "references": [
+    "UnityAtoms.UnityAtomsCore.Editor",
+    "UnityAtoms.UnityAtomsCore.Runtime",
+    "Egitech.Core.Runtime",
+    "Unity.TextMeshPro",
+    "Unity.TextMeshPro.Editor"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

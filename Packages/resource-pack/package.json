@@ -1,0 +1,15 @@
+﻿{
+  "name": "com.egitech.resource-pack",
+  "version": "1.0.0",
+  "displayName": "Resource Pack",
+  "unity": "2021.3",
+  "unityRelease": "17f1",
+  "keywords": [
+    "texturepack",
+    "art"
+  ],
+  "author": {
+    "name": "Enpiech",
+    "email": "enpiech@gmail.com"
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "name": "Gley.JumpyCompleteGame",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2f5b55d2d22865a499b61e2ab624cb23",
+        "GUID:e02d77f29f99c884c8adbab577a0a076",
+        "GUID:f81719cf7f2ac6a47b0557438e760f2e",
+        "GUID:01f655fc523e8b248960600b512fcd36",
+        "GUID:33d42bc2929976a47bafa8174289df63",
+        "GUID:22c4d6514859d044e8cb59ff35bbcdb2",
+        "GUID:391797eb105a4af409ffff2a38800de7",
+        "GUID:431daa1ab7ce5e84a815495c1a5aa5c3",
+        "GUID:f800891a3368070468dba763a709d479",
+        "GUID:8c2c4047fcb3c9841a1e1377f2609aa1",
+        "GUID:2eafea8dd58a03041a04edcf31c473c9"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

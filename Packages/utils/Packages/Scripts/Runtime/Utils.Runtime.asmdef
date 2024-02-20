@@ -1,0 +1,23 @@
+{
+  "name": "Utils.Runtime",
+  "rootNamespace": "Egitech.Utils",
+  "references": [
+    "Unity.Localization",
+    "NaughtyAttributes.Core",
+    "Unity.Addressables",
+    "UniTask",
+    "Unity.TextMeshPro",
+    "Unity.ResourceManager",
+    "UnityAtoms.UnityAtomsCore.Runtime",
+    "UnityAtoms.UnityAtomsBaseAtoms.Runtime"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

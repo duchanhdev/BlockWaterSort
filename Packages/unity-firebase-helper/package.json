@@ -1,0 +1,19 @@
+{
+  "name": "com.egitech.firebase-helper",
+  "version": "1.0.3",
+  "displayName": "Egitech Firebase Helper",
+  "description": "Firebase Helper classes",
+  "unity": "2021.3",
+  "unityRelease": "16f1",
+  "dependencies": {
+    "com.egitech.core": ""
+  },
+  "keywords": [
+    "firebase",
+    "helper"
+  ],
+  "author": {
+    "name": "Enpiech",
+    "email": "enpiech@gmail.com"
+  }
+}

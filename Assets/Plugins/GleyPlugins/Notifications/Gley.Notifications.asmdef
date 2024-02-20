@@ -1,0 +1,18 @@
+﻿{
+    "name": "Gley.Notifications",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2f5b55d2d22865a499b61e2ab624cb23",
+        "GUID:ac145e6b8c6034cdbadc8c6e26aedbcf",
+        "GUID:1e8e55397bd004beaba78a667566665f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

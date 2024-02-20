@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8244267371200520436
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8244267371200520439}
+  - component: {fileID: 2458501275475510249}
+  - component: {fileID: 8587497279552519586}
+  m_Layer: 2
+  m_Name: '@SettingController'
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &8244267371200520439
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8244267371200520436}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2458501275475510249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8244267371200520436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 165b9e7769304ab69a93e99cfefe5236, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _currentSetting:
+    _usage: 2
+    _value:
+      _masterVolume: 1
+      _musicVolume: 1
+      _sfxVolume: 1
+      _qualityLevel: 2
+      _locale: {fileID: 0}
+    _constant: {fileID: 0}
+    _variable: {fileID: 11400000, guid: 271acbbcd1e0ea545b4b1ab65c1be098, type: 2}
+    _variableInstancer: {fileID: 0}
+  _onMasterVolumeChanged: {fileID: 11400000, guid: 65d4b56f977c6cc4181435538d422578, type: 2}
+  _onSFXVolumeChanged: {fileID: 11400000, guid: b4b9d3764708c5642a8f2e7fefd1cf8b, type: 2}
+  _onMusicVolumeChanged: {fileID: 11400000, guid: 6a84ae64a4cbbfa4980e5276e6c84a2c, type: 2}
+  _onLoadingSavedSetting: {fileID: 11400000, guid: a639f2506dd85fa48adc579a45d8ccf4, type: 2}
+  _onSavingSetting: {fileID: 11400000, guid: 7eb120421ba6e14428d8306654ac7a20, type: 2}
+  _onChangingSetting: {fileID: 11400000, guid: 332e6dbf8ba6e374e9e722380fca554e, type: 2}
+  _onSavedSettingLoaded: {fileID: 11400000, guid: fc0da3f414cc90e4680df134df40ebd2, type: 2}
+--- !u!114 &8587497279552519586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8244267371200520436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6ab7cbc45164d19b20476265c251c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _developerDescription: 
+  _unityEventResponse:
+    m_PersistentCalls:
+      m_Calls: []
+  _actionResponses: []
+  _conditions: []
+  _operator: 0
+  _replayEventBufferOnRegister: 0
+  _eventReference:
+    _usage: 0
+    _event: {fileID: 11400000, guid: 1a003e8de37cad5428a15bf16e62aabc, type: 2}
+    _eventInstancer: {fileID: 0}
+    _variable: {fileID: 0}
+    _variableInstancer: {fileID: 0}

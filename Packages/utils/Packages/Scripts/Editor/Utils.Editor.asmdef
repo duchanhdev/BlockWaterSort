@@ -1,0 +1,21 @@
+{
+  "name": "Utils.Editor",
+  "rootNamespace": "Egitech.Utils",
+  "references": [
+    "UnityAtoms.UnityAtomsCore.Runtime",
+    "UnityAtoms.UnityAtomsCore.Editor",
+    "Utils.Runtime",
+    "Unity.Addressables"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

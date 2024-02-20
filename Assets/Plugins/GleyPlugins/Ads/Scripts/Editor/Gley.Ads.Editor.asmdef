@@ -1,0 +1,19 @@
+{
+    "name": "Gley.Ads.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2f5b55d2d22865a499b61e2ab624cb23",
+        "GUID:f81719cf7f2ac6a47b0557438e760f2e"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

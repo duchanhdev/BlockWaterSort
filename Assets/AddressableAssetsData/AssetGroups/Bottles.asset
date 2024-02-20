@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Bottles
+  m_EditorClassIdentifier: 
+  m_GroupName: Bottles
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 7ea5392d88eae4246aaf6db3a95aff24
+  m_SerializeEntries: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 39204afc55af8d54b8145209da2ad42c, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 85da2dc289837624dbee300475ffbf11, type: 2}
+    - {fileID: 11400000, guid: 41dcb5c78ea81e343b2570b01d707067, type: 2}

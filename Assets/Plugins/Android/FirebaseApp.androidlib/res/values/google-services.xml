@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id">
+  <string name="gcm_defaultSenderId" translatable="false">16318424484</string>
+  <string name="google_storage_bucket" translatable="false">egitech-game-block-sort-puzzle.appspot.com</string>
+  <string name="project_id" translatable="false">egitech-game-block-sort-puzzle</string>
+  <string name="google_api_key" translatable="false">AIzaSyBeE21A7TdZ9E2MsJevUAtb0bNKl_vdeFs</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBeE21A7TdZ9E2MsJevUAtb0bNKl_vdeFs</string>
+  <string name="google_app_id" translatable="false">1:16318424484:android:ce7b3bf4a641b8bb090d31</string>
+  <string name="default_web_client_id" translatable="false">16318424484-u8jd12gsh2h43ho9ncds73tuvbc08adr.apps.googleusercontent.com</string>
+</resources>

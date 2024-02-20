@@ -1,0 +1,19 @@
+{
+    "name": "Gley.EasyIAP.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2f5b55d2d22865a499b61e2ab624cb23",
+        "GUID:391797eb105a4af409ffff2a38800de7"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

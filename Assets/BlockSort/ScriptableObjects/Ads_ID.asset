@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daea4a9013b5ea748b08b5c6742f7fe6, type: 3}
+  m_Name: Ads_ID
+  m_EditorClassIdentifier: 
+  _bannerAdsIdUnityEditor: unused
+  _bannerAdsIdUnityAndroidAndDev: ca-app-pub-3940256099942544/6300978111
+  _bannerAdsIdUnityAndroidAndProd: ca-app-pub-3940256099942544/6300978111
+  _bannerAdsIdUnityIphoneAndDev: ca-app-pub-3940256099942544/2934735716
+  _bannerAdsIdUnityIphoneAndProd: ca-app-pub-3940256099942544/2934735716
+  _bannerAdsIdUnityOther: unexpected_platform
+  _interstitialAdsIdUnityEditor: unused
+  _interstitialAdsIdUnityAndroidDev: ca-app-pub-3940256099942544/1033173712
+  _interstitialAdsIdUnityAndroidProd: ca-app-pub-3940256099942544/1033173712
+  _interstitialAdsIdUnityIphoneDev: ca-app-pub-3940256099942544/4411468910
+  _interstitialAdsIdUnityIphoneProd: ca-app-pub-3940256099942544/4411468910
+  _interstitialAdsIdUnityOther: unexpected_platform
+  _rewardedAdsIdUnityEditor: unused
+  _rewardedAdsIdUnityAndroidAndDev: ca-app-pub-3940256099942544/5224354917
+  _rewardedAdsIdUnityAndroidAndProd: ca-app-pub-3940256099942544/5224354917
+  _rewardedAdsIdUnityIphoneAndDev: ca-app-pub-3940256099942544/1712485313
+  _rewardedAdsIdUnityIphoneAndProd: ca-app-pub-3940256099942544/1712485313
+  _rewardedAdsIdUnityOther: unexpected_platform
+  _appopenAdsIdUnityEditor: unused
+  _appopenAdsIdUnityAndroidDev: ca-app-pub-3940256099942544/3419835294
+  _appopenAdsIdUnityAndroidProd: ca-app-pub-3940256099942544/3419835294
+  _appopenAdsIdUnityIphoneDev: ca-app-pub-3940256099942544/5662855259
+  _appopenAdsIdUnityIphoneProd: ca-app-pub-3940256099942544/5662855259
+  _appopenAdsIdUnityOther: unexpected_platform

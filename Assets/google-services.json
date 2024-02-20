@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "16318424484",
+    "project_id": "egitech-game-block-sort-puzzle",
+    "storage_bucket": "egitech-game-block-sort-puzzle.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16318424484:android:ce7b3bf4a641b8bb090d31",
+        "android_client_info": {
+          "package_name": "com.egitech.game.watersort.puzzle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "16318424484-u8jd12gsh2h43ho9ncds73tuvbc08adr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeE21A7TdZ9E2MsJevUAtb0bNKl_vdeFs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "16318424484-u8jd12gsh2h43ho9ncds73tuvbc08adr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "16318424484-nuc4gpq52piuuim85saakcsiljjuinqk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.egitech.game.watersort.puzzle"
+              }
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-3423586166659435~2927853615"
+    }
+  ],
+  "configuration_version": "1"
+}

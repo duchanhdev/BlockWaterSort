@@ -1,0 +1,17 @@
+{
+    "name": "Egitech.NotificationManager.Core",
+    "rootNamespace": "NotificationManager",
+    "references": [
+        "Unity.Notifications.Android",
+        "UniTask"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

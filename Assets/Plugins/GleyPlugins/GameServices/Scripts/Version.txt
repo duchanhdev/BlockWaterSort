@@ -1,0 +1,5 @@
+﻿{
+    "folderName": "GameServices",
+    "longVersion": "1.5.9",
+    "shortVersion": 8
+}
