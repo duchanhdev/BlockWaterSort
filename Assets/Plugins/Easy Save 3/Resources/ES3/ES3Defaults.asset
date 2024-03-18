@@ -36,8 +36,6 @@ MonoBehaviour:
     - EasySave3
     - Egitech.Core.Runtime
     - Egitech.FirebaseHelper
-    - Egitech.NotificationManager.Core
-    - Egitech.NotificationManager.Shared
     - EnhancedScroller_asmdef
     - Gley.Ads
     - Gley.AllPlatformsSave

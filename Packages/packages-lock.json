@@ -46,12 +46,6 @@
       "source": "embedded",
       "dependencies": {}
     },
-    "com.egitech.unity-notification-manager": {
-      "version": "file:unity-notification-manager",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
     "com.egitech.utils": {
       "version": "file:utils",
       "depth": 0,
