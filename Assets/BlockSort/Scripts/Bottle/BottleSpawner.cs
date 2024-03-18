@@ -52,22 +52,10 @@ namespace BlockSort.Bottle
                 case Config.Config.CHOOSE_SECOND_TUBE_SUCCESS:
 
                     DrawBottle();
-                    StartCoroutine(bottles[_firstBottleIndex].PlayIncompletePouringSound());
                     if (game.IsComplete())
                     {
                         gameUIManager.ShowVictoryLayer();
                     }
-
-                    break;
-
-                    StartCoroutine(StartAnimationBottlePouringWater(_firstBottleIndex, bottleIndex, () =>
-                    {
-                        if (game.IsComplete())
-                        {
-                            gameUIManager.ShowVictoryLayer();
-                        }
-                    }));
-
                     break;
                 case Config.Config.CHOOSE_SECOND_TUBE_FAIL:
                     DrawBottle();
@@ -99,16 +87,6 @@ namespace BlockSort.Bottle
 
                 bottle.gameObject.SetActive(false);
             }
-        }
-
-        private IEnumerator StartAnimationBottlePouringWater(int firstBottleIndex, int secondBottleIndex,
-            [CanBeNull] Action onComplete = null)
-        {
-            var firstBottle = bottles[firstBottleIndex];
-            var secondBottle = bottles[secondBottleIndex];
-            yield return StartCoroutine(firstBottle.StartColorTransfer(secondBottle));
-
-            onComplete?.Invoke();
         }
     }
 }

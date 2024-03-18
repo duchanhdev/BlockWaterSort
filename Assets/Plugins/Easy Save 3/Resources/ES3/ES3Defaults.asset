@@ -36,7 +36,6 @@ MonoBehaviour:
     - EasySave3
     - Egitech.Core.Runtime
     - Egitech.FirebaseHelper
-    - Egitech.NotificationManager.Android
     - Egitech.NotificationManager.Core
     - Egitech.NotificationManager.Shared
     - EnhancedScroller_asmdef

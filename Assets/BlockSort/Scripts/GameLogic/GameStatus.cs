@@ -37,8 +37,6 @@ namespace BlockSort.GameLogic
 
         private string[] ReadFile(int level)
         {
-            //string findPath = Path.Combine("Assets", "BlockSort", "problem","levels",$"{levelClass}.levelClass");
-            //string findPath ="Assets\\BlockSort\\problem\\levels\\" + levelClass +".levelClass";
             var numEmptyTube = DataStream.GetInstance().GetlevelSO(level).GetNumEmptyTube();
             var tubes = DataStream.GetInstance().GetlevelSO(level).GetTubes();
 
@@ -239,28 +237,4 @@ namespace BlockSort.GameLogic
             }
         }
     }
-
-    /*
-private void Save100File()
-{
-    for(int levelClass = 1; levelClass <= 100; levelClass++)
-    {
-        LevelSO levelSO =  DataStream.GetInstance().GetlevelSO(levelClass);
-        string findPath = Path.Combine("Assets", "BlockSort", "problem","levels",$"{levelClass}.levelClass");
-        string[] s = File.ReadAllLines(findPath);
-        int numEmptyTube = int.Parse(s[0].Substring(1));
-        string[] ss = new string[s.Length - 1];
-        for(int i = 0; i < ss.Length; i++)
-        {
-            ss[i] = s[i+1];
-        }
-        if (numEmptyTube + ss.Length > 12)
-        {
-            numEmptyTube = 12 - ss.Length;
-        }
-        levelSO.SetNumEmptyTube(numEmptyTube);
-        levelSO.SetTubes(ss);
-    }
-}
-*/
 }
